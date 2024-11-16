@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 0,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/dd/c8/ddc8cd780833addc5477f633c357df70e51c6ec4.jpg]",
+      "img": "https://image.hm.com/assets/hm/dd/c8/ddc8cd780833addc5477f633c357df70e51c6ec4.jpg",
       "title": "SIGNATURE 캐시미어 코트",
       "price": 399000,
       "choice": true,
@@ -16,7 +16,7 @@
     },
     {
       "id": 1,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/2a/06/2a06a75738bda07b84670d807fea887dda17c1e8.jpg]",
+      "img": "https://image.hm.com/assets/hm/2a/06/2a06a75738bda07b84670d807fea887dda17c1e8.jpg",
       "title": "CLOUD 캐시미어 니트",
       "price": 189000,
       "choice": true,
@@ -58,7 +58,7 @@
     },
     {
       "id": 4,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/a2/4d/a24d3d1947e9d88a558e5b25c00e89d06508f3c3.jpg]",
+      "img": "https://image.hm.com/assets/hm/a2/4d/a24d3d1947e9d88a558e5b25c00e89d06508f3c3.jpg",
       "title": "ELEGANCE 실크 드레스",
       "price": 329000,
       "choice": true,
@@ -72,7 +72,7 @@
     },
     {
       "id": 5,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/8d/6a/8d6a5b0c62633dde9c6da5d36444b30292c56307.jpg]",
+      "img": "https://image.hm.com/assets/hm/8d/6a/8d6a5b0c62633dde9c6da5d36444b30292c56307.jpg",
       "title": "PREMIUM 울 코트",
       "price": 299000,
       "choice": true,
@@ -86,7 +86,7 @@
     },
     {
       "id": 6,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/af/41/af41280f5dff635a4f9856859dfa2376ec6a73f1.jpg]",
+      "img": "https://image.hm.com/assets/hm/af/41/af41280f5dff635a4f9856859dfa2376ec6a73f1.jpg",
       "title": "CLASSIC 캐시미어 가디건",
       "price": 229000,
       "choice": false,
@@ -100,7 +100,7 @@
     },
     {
       "id": 7,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/49/91/4991f69e8f56950c28134c9f2a56b85493ecc7c2.jpg]",
+      "img": "https://image.hm.com/assets/hm/49/91/4991f69e8f56950c28134c9f2a56b85493ecc7c2.jpg",
       "title": "PREMIUM 실크 블라우스",
       "price": 159000,
       "choice": true,
@@ -114,7 +114,7 @@
     },
     {
       "id": 8,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/ec/7f/ec7f87dd262140042075c033d8180b33c55d0c0c.jpg]",
+      "img": "https://image.hm.com/assets/hm/ec/7f/ec7f87dd262140042075c033d8180b33c55d0c0c.jpg",
       "title": "LUXE 캐시미어 머플러",
       "price": 129000,
       "choice": true,
@@ -128,7 +128,7 @@
     },
     {
       "id": 9,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/84/ce/84ce870d8ae022ed2e6eca1d5ec4df7f94236f7c.jpg]",
+      "img": "https://image.hm.com/assets/hm/84/ce/84ce870d8ae022ed2e6eca1d5ec4df7f94236f7c.jpg",
       "title": "MODERN 데님 자켓",
       "price": 189000,
       "choice": true,
@@ -142,7 +142,7 @@
     },
     {
       "id": 10,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/c2/91/c29138b7a1fbf71632aa649f5aaea8bdb6ef8bee.jpg]",
+      "img": "https://image.hm.com/assets/hm/c2/91/c29138b7a1fbf71632aa649f5aaea8bdb6ef8bee.jpg",
       "title": "LUXE 슬림 진",
       "price": 229000,
       "choice": true,
@@ -170,7 +170,7 @@
     },
     {
       "id": 12,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/20/61/20612b8b2f20416575f10ef251a8dd6f62f0b2c1.jpg]",
+      "img": "https://image.hm.com/assets/hm/20/61/20612b8b2f20416575f10ef251a8dd6f62f0b2c1.jpg",
       "title": "HERITAGE 빈티지 진",
       "price": 259000,
       "choice": false,
