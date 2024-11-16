@@ -136,16 +136,17 @@ const ProductDetail = () => {
   const { id } = useParams();
 
   const getProductDetail = async () => {
-    // const url = `http://localhost:3000/products/${id}`;
     const url = `https://my-json-server.typicode.com/ParkTH-Dev/shoppingmall/products/${id}`;
     const response = await fetch(url);
     const data = await response.json();
     setProduct(data);
   };
+
   const formattedPrice = new Intl.NumberFormat("ko-KR", {
     style: "currency",
     currency: "KRW",
   }).format(product?.price);
+
   useEffect(() => {
     getProductDetail();
   }, []);
@@ -154,14 +155,14 @@ const ProductDetail = () => {
     <Container>
       <Row>
         <Col>
-          <Img src={product && product.img} alt={product?.id} />
+          <Img src={product?.img} alt={product?.title} />
         </Col>
         <Col>
           <ProductDesc>
-            <ProductTitle>상품명 : {product && product.title}</ProductTitle>
-            <ProductPrice>상품가격 : {product && formattedPrice}</ProductPrice>
-            <Choice>
-              {product && product.choice ? "Conscious choice" : ""}
+            <ProductTitle>{product?.title}</ProductTitle>
+            <ProductPrice>{formattedPrice}</ProductPrice>
+            <Choice choice={product?.choice}>
+              {product?.choice ? "Conscious choice" : ""}
             </Choice>
           </ProductDesc>
           <BtnWrap>
@@ -170,13 +171,11 @@ const ProductDetail = () => {
                 사이즈 선택
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                {product &&
-                  product.size.length > 0 &&
-                  product?.size.map((item, i) => (
-                    <Dropdown.Item key={i} href="#/{i}">
-                      {item}
-                    </Dropdown.Item>
-                  ))}
+                {product?.size?.map((item, i) => (
+                  <Dropdown.Item key={i} href="#/{i}">
+                    {item}
+                  </Dropdown.Item>
+                ))}
               </Dropdown.Menu>
             </StyledDropdown>
             <StyledButton variant="warning">장바구니</StyledButton>
@@ -185,7 +184,7 @@ const ProductDetail = () => {
           <Description>
             <h3>제품 특징</h3>
             <ul>
-              {product?.description?.mainFeatures.map((feature, i) => (
+              {product?.description?.mainFeatures?.map((feature, i) => (
                 <li key={i}>{feature}</li>
               ))}
             </ul>
@@ -196,7 +195,7 @@ const ProductDetail = () => {
             <div className="material">
               <h3>취급 주의사항</h3>
               <ul>
-                {product?.description?.care.map((care, i) => (
+                {product?.description?.care?.map((care, i) => (
                   <li key={i}>{care}</li>
                 ))}
               </ul>

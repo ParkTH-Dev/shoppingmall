@@ -48,8 +48,8 @@ const ProductAll = () => {
     <StyledContainer>
       <ProductGrid>
         {productList.length > 0 ? (
-          productList.map((menu, i) => (
-            <ProductColumn key={i} lg={3} md={4} sm={6}>
+          productList.map((menu) => (
+            <ProductColumn key={menu.id} lg={3} md={4} sm={6}>
               <ProductCard item={menu} />
             </ProductColumn>
           ))
