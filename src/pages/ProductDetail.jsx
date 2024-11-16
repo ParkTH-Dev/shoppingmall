@@ -45,8 +45,9 @@ const BtnWrap = styled.div`
   padding: 20px;
 `;
 const Choice = styled.div`
-  background-color: ${(props) => (props.choice ? "#27ae60" : "transparent")};
-  color: ${(props) => (props.choice ? "white" : "#666")};
+  background-color: ${(props) =>
+    props.choice === "true" ? "#27ae60" : "transparent"};
+  color: ${(props) => (props.choice === "true" ? "white" : "#666")};
   padding: 8px 15px;
   border-radius: 20px;
   display: inline-block;
@@ -161,7 +162,7 @@ const ProductDetail = () => {
           <ProductDesc>
             <ProductTitle>{product?.title}</ProductTitle>
             <ProductPrice>{formattedPrice}</ProductPrice>
-            <Choice choice={product?.choice}>
+            <Choice choice={product?.choice?.toString()}>
               {product?.choice ? "Conscious choice" : ""}
             </Choice>
           </ProductDesc>
