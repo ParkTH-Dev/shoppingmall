@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 0,
-      "img": "https://image.hm.com/assets/hm/dd/c8/ddc8cd780833addc5477f633c357df70e51c6ec4.jpg",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/dd/c8/ddc8cd780833addc5477f633c357df70e51c6ec4.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
       "title": "SIGNATURE 캐시미어 코트",
       "price": 399000,
       "choice": true,
@@ -16,7 +16,7 @@
     },
     {
       "id": 1,
-      "img": "https://image.hm.com/assets/hm/2a/06/2a06a75738bda07b84670d807fea887dda17c1e8.jpg",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/2a/06/2a06a75738bda07b84670d807fea887dda17c1e8.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
       "title": "CLOUD 캐시미어 니트",
       "price": 189000,
       "choice": true,
@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "img": "https://image.hm.com/assets/hm/aa/47/aa47b14d89b5c2e3b430c14677364a0250213ecd.jpg",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/aa/47/aa47b14d89b5c2e3b430c14677364a0250213ecd.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
       "title": "ESSENTIAL 울 스웨터",
       "price": 159000,
       "choice": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": 3,
-      "img": "https://image.hm.com/assets/hm/16/76/1676ab1288c0ea167c68991a10e1aceeffc1332e.jpg",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/16/76/1676ab1288c0ea167c68991a10e1aceeffc1332e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
       "title": "MODERN 캐시미어 후드",
       "price": 259000,
       "choice": false,
@@ -58,7 +58,7 @@
     },
     {
       "id": 4,
-      "img": "https://image.hm.com/assets/hm/a2/4d/a24d3d1947e9d88a558e5b25c00e89d06508f3c3.jpg",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/a2/4d/a24d3d1947e9d88a558e5b25c00e89d06508f3c3.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
       "title": "ELEGANCE 실크 드레스",
       "price": 329000,
       "choice": true,
@@ -72,112 +72,126 @@
     },
     {
       "id": 5,
-      "img": "https://image.hm.com/assets/hm/8d/6a/8d6a5b0c62633dde9c6da5d36444b30292c56307.jpg",
-      "title": "PREMIUM 울 코트",
-      "price": 299000,
-      "choice": true,
-      "new": true,
-      "size": ["S", "M", "L"],
-      "description": {
-        "mainFeatures": ["울 100%", "클래식"],
-        "material": "울 100%",
-        "care": ["드라이클리닝"]
-      }
-    },
-    {
-      "id": 6,
-      "img": "https://image.hm.com/assets/hm/af/41/af41280f5dff635a4f9856859dfa2376ec6a73f1.jpg",
-      "title": "CLASSIC 캐시미어 가디건",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/eb/ce/ebce68bd1bc4e4d9c25104ca3903bdec9850859b.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "LUXE 실크 블라우스",
       "price": 229000,
       "choice": false,
       "new": false,
       "size": ["S", "M", "L"],
       "description": {
-        "mainFeatures": ["캐시미어 혼방", "베이직"],
-        "material": "캐시미어 50%",
-        "care": ["드라이클리닝"]
-      }
-    },
-    {
-      "id": 7,
-      "img": "https://image.hm.com/assets/hm/49/91/4991f69e8f56950c28134c9f2a56b85493ecc7c2.jpg",
-      "title": "PREMIUM 실크 블라우스",
-      "price": 159000,
-      "choice": true,
-      "new": true,
-      "size": ["S", "M", "L"],
-      "description": {
-        "mainFeatures": ["실크 100%", "우아한 핏"],
+        "mainFeatures": ["실크 100%", "러플"],
         "material": "실크 100%",
         "care": ["드라이클리닝"]
       }
     },
     {
-      "id": 8,
-      "img": "https://image.hm.com/assets/hm/ec/7f/ec7f87dd262140042075c033d8180b33c55d0c0c.jpg",
-      "title": "LUXE 캐시미어 머플러",
-      "price": 129000,
+      "id": 6,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/27/cd/27cd32a483dfb4ed1ff222c029c6297405090a5f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "SIGNATURE 이브닝 드레스",
+      "price": 459000,
       "choice": true,
       "new": false,
-      "size": ["FREE"],
+      "size": ["S", "M", "L"],
       "description": {
-        "mainFeatures": ["캐시미어 100%", "고급"],
-        "material": "캐시미어 100%",
+        "mainFeatures": ["실크 새틴", "드라이클리닝"],
+        "material": "실크 100%",
+        "care": ["드라이클리닝"]
+      }
+    },
+    {
+      "id": 7,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/d9/fb/d9fbdd09fdba5fff18fcf4216bb92625c5a6b89e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "PREMIUM 코튼 셔츠",
+      "price": 159000,
+      "choice": false,
+      "new": true,
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": ["이집션 코튼", "오버사이즈"],
+        "material": "코튼 100%",
+        "care": ["드라이클리닝"]
+      }
+    },
+    {
+      "id": 8,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/a2/24/a224b2ee5e069e54e5f9a4adbb0c741011293155.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "MODERN 메쉬 드레스",
+      "price": 289000,
+      "choice": true,
+      "new": true,
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": ["메쉬 소재", "모던 실루엣"],
+        "material": "폴리에스터 100%",
         "care": ["드라이클리닝"]
       }
     },
     {
       "id": 9,
-      "img": "https://image.hm.com/assets/hm/84/ce/84ce870d8ae022ed2e6eca1d5ec4df7f94236f7c.jpg",
-      "title": "MODERN 데님 자켓",
-      "price": 189000,
-      "choice": true,
-      "new": false,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/9a/ae/9aae5fa4857581269e4b30ecd0f41b34546433e9.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[2]&call=url[file:/product/main]",
+      "title": "CLASSIC 스트레이트 진",
+      "price": 159000,
+      "choice": false,
+      "new": true,
       "size": ["S", "M", "L"],
       "description": {
-        "mainFeatures": ["프리미엄 데님", "모던핏"],
+        "mainFeatures": ["프리미엄 데님", "클래식 핏"],
         "material": "코튼 100%",
         "care": ["물세탁"]
       }
     },
     {
       "id": 10,
-      "img": "https://image.hm.com/assets/hm/c2/91/c29138b7a1fbf71632aa649f5aaea8bdb6ef8bee.jpg",
-      "title": "LUXE 슬림 진",
-      "price": 229000,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/84/ce/84ce870d8ae022ed2e6eca1d5ec4df7f94236f7c.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "DENIM 크롭 탑",
+      "price": 129000,
       "choice": true,
-      "new": true,
+      "new": false,
       "size": ["S", "M", "L"],
       "description": {
-        "mainFeatures": ["프리미엄 데님", "슬림핏"],
-        "material": "코튼 95%",
+        "mainFeatures": ["프리미엄 데님", "크롭 디자인"],
+        "material": "코튼 98%, 엘라스틴 2%",
         "care": ["물세탁"]
       }
     },
     {
       "id": 11,
-      "img": "https://image.hm.com/assets/hm/7b/e8/7be8d5fe8b15cd0dcab12d61ee92537562b66dbe.jpg",
-      "title": "PREMIUM 와이드 진",
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/c2/91/c29138b7a1fbf71632aa649f5aaea8bdb6ef8bee.jpg],origin[dam],category[men_jeans_slim],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+      "title": "SLIM 하이웨이스트 진",
       "price": 189000,
       "choice": true,
       "new": true,
       "size": ["S", "M", "L"],
       "description": {
-        "mainFeatures": ["고급 데님", "와이드핏"],
-        "material": "코튼 100%",
+        "mainFeatures": ["슬림핏", "하이웨이스트"],
+        "material": "코튼 98%, 엘라스틴 2%",
         "care": ["물세탁"]
       }
     },
     {
       "id": 12,
-      "img": "https://image.hm.com/assets/hm/20/61/20612b8b2f20416575f10ef251a8dd6f62f0b2c1.jpg",
-      "title": "HERITAGE 빈티지 진",
-      "price": 259000,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/7b/e8/7be8d5fe8b15cd0dcab12d61ee92537562b66dbe.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "WIDE 하이웨이스트 진",
+      "price": 159000,
+      "choice": true,
+      "new": true,
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": ["와이드핏", "하이웨이스트"],
+        "material": "코튼 100%",
+        "care": ["물세탁"]
+      }
+    },
+    {
+      "id": 13,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/20/61/20612b8b2f20416575f10ef251a8dd6f62f0b2c1.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "REGULAR 웨이스트 와이드 진",
+      "price": 129000,
       "choice": false,
       "new": false,
       "size": ["S", "M", "L"],
       "description": {
-        "mainFeatures": ["빈티지 워싱", "레귤러핏"],
+        "mainFeatures": ["레귤러핏", "와이드"],
         "material": "코튼 100%",
         "care": ["물세탁"]
       }
