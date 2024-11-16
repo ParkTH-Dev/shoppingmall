@@ -8,9 +8,13 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 20px 0;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   margin-bottom: 30px;
-  /* justify-content: space-around; */
 `;
 
 const HeaderTop = styled.div`
@@ -22,28 +26,29 @@ const HeaderTop = styled.div`
   gap: 20px;
   position: relative;
   margin-bottom: 30px;
+  margin-right: 50px;
 `;
 const SearchBox = styled.div`
+  position: relative;
   input {
-    padding: 7px 20px;
+    padding: 10px 40px;
     border: none;
-    border-bottom: 1px solid #000;
-    text-align: center;
-    &::placeholder {
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
+    border-radius: 20px;
+    background: #f8f9fa;
+    width: 250px;
+    transition: all 0.3s ease;
+
     &:focus {
-      outline: none;
-      &::placeholder {
-        opacity: 0;
-      }
+      width: 300px;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     }
   }
   svg {
     position: absolute;
-    left: 2px;
-    bottom: 7px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 `;
 
@@ -54,20 +59,75 @@ const LoginAuth = styled.div`
 `;
 
 const Logo = styled.div`
-  width: 300px;
-  height: 50px;
+  width: 200px;
   margin-bottom: 20px;
-  & a > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: relative;
+
+  a {
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    display: inline-block;
+
+    span {
+      color: #007bff;
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+      span {
+        color: #0056b3;
+      }
+
+      &:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(to right, #1a1a1a, #007bff);
+      transition: all 0.3s ease;
+    }
   }
 `;
 
 const MenuArr = styled.div`
   & > ul {
     display: flex;
-    gap: 30px;
+    gap: 40px;
+
+    li {
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width 0.3s ease;
+      }
+
+      &:hover:after {
+        width: 100%;
+      }
+    }
   }
 `;
 
@@ -79,7 +139,7 @@ const menuList = [
   "발매",
   "랭킹",
   "세일",
-  "무텐 슈퍼세일",
+  "슈퍼세일",
 ];
 
 const Navbar = ({ authenticate, setAuthenticate }) => {
@@ -107,10 +167,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
       </HeaderTop>
       <Logo>
         <Link to={"/"}>
-          <img
-            src="https://menu.mt.co.kr/moneyweek/thumb/2020/08/21/06/2020082114368021238_2.jpg"
-            alt="logo"
-          />
+          LUXE<span>WEAR</span>
         </Link>
       </Logo>
       <MenuArr>

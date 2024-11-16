@@ -3,146 +3,314 @@
     {
       "id": 0,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/dd/c8/ddc8cd780833addc5477f633c357df70e51c6ec4.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "아플리케 트랙 재킷",
-      "price": 99900,
+      "title": "SIGNATURE 울트라 소프트 캐시미어 코트",
+      "price": 399000,
       "choice": true,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "최고급 캐시미어 100% 소재",
+          "미니멀한 테일러드 디자인",
+          "따뜻하면서도 가벼운 착용감",
+          "고급스러운 실루엣"
+        ],
+        "material": "캐시미어 100%",
+        "care": ["드라이클리닝 전용", "울샴푸 사용 가능", "그늘에서 자연 건조"]
+      }
     },
     {
       "id": 1,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/2a/06/2a06a75738bda07b84670d807fea887dda17c1e8.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "오버사이즈 플리스 후디",
-      "price": 29900,
+      "title": "CLOUD NINE 프리미엄 캐시미어 니트",
+      "price": 189000,
       "choice": true,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "부드러운 캐시미어 혼방 소재",
+          "릴랙스드 오버사이즈 핏",
+          "보온성과 착용감 모두 우수",
+          "세련된 넥라인 디테일"
+        ],
+        "material": "캐시미어 70%, 울 30%",
+        "care": ["드라이클리닝 권장", "손세탁 가능", "평평하게 뉘어서 건조"]
+      }
     },
     {
       "id": 2,
       "img": "https://image.hm.com/assets/hm/aa/47/aa47b14d89b5c2e3b430c14677364a0250213ecd.jpg?imwidth=564",
-      "title": "스웨트셔츠",
-      "price": 39900,
+      "title": "ESSENTIAL 메리노 울 스웨터",
+      "price": 159000,
       "choice": false,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "최고급 메리노 울 소재",
+          "클래식한 크루넥 디자인",
+          "사계절 활용 가능한 두께감",
+          "자연스러운 드레이프"
+        ],
+        "material": "메리노 울 100%",
+        "care": ["울 전용 세제 사용", "드라이클리닝 가능", "서늘한 곳에서 보관"]
+      }
     },
     {
       "id": 3,
       "img": "https://image.hm.com/assets/hm/16/76/1676ab1288c0ea167c68991a10e1aceeffc1332e.jpg?imwidth=564",
-      "title": "디자인 후드티",
-      "price": 39900,
+      "title": "MODERN CLASSIC 캐시미어 후드 집업",
+      "price": 259000,
       "choice": false,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "프리미엄 캐시미어 혼방",
+          "모던한 미니멀 디자인",
+          "고급스러운 지퍼 디테일",
+          "편안한 착용감"
+        ],
+        "material": "캐시미어 60%, 울 40%",
+        "care": ["드라이클리닝 권장", "중성세제 손세탁 가능", "그늘건조 필수"]
+      }
     },
     {
       "id": 4,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/a2/4d/a24d3d1947e9d88a558e5b25c00e89d06508f3c3.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "플라운스 디테일 셔츠 드레스",
-      "price": 29900,
+      "title": "ELEGANCE 실크 플라운스 드레스",
+      "price": 329000,
       "choice": true,
       "new": false,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "100% 실크 소재",
+          "우아한 플라운스 디테일",
+          "완벽한 실루엣",
+          "고급스러운 광택감"
+        ],
+        "material": "실크 100%",
+        "care": [
+          "드라이클리닝 전용",
+          "섬세한 취급 필요",
+          "직사광선 피해서 보관"
+        ]
+      }
     },
     {
       "id": 5,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/eb/ce/ebce68bd1bc4e4d9c25104ca3903bdec9850859b.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "시퀸 플레어 드레스",
-      "price": 39900,
+      "title": "STARLIGHT 시퀸 이브닝 드레스",
+      "price": 439000,
       "choice": false,
       "new": false,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "고급 시퀸 디테일",
+          "슬림한 실루엣",
+          "백 슬릿 디자인",
+          "이중 안감 처리"
+        ],
+        "material": "폴리에스터 95%, 스판덱스 5%",
+        "care": ["드라이클리닝 전용", "보관 시 커버 사용", "장신구 접촉 주의"]
+      }
     },
     {
       "id": 6,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/27/cd/27cd32a483dfb4ed1ff222c029c6297405090a5f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "라인스톤 스트랩 원숄더 드레스",
-      "price": 69900,
+      "title": "ROYAL 크리스탈 원숄더 드레스",
+      "price": 469000,
       "choice": true,
-      "new": false,
-      "size": ["S", "M", "L"]
+      "new": true,
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "스와로브스키 크리스탈 장식",
+          "우아한 원숄더 디자인",
+          "프리미엄 새틴 소재",
+          "완벽한 실루엣"
+        ],
+        "material": "실크 새틴 100%",
+        "care": [
+          "전문 드라이클리닝만 가능",
+          "보관시 전용 커버 사용",
+          "습기 주의"
+        ]
+      }
     },
     {
       "id": 7,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/d9/fb/d9fbdd09fdba5fff18fcf4216bb92625c5a6b89e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "프릴 디테일 코튼 드레스",
-      "price": 99900,
-      "choice": false,
-      "new": true,
-      "size": ["S", "M", "L"]
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/7a/49/7a49e29d6f18f66b3824344f3c4e8ac90cd583d6.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "PREMIUM 울 블렌드 코트",
+      "price": 289000,
+      "choice": true,
+      "new": false,
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "최고급 울 혼방 소재",
+          "클래식한 테일러드 칼라",
+          "완벽한 실루엣",
+          "고급 실크 안감"
+        ],
+        "material": "울 90%, 캐시미어 10%",
+        "care": ["드라이클리닝 전용", "습기에 주의", "통풍이 잘되는 곳에 보관"]
+      }
     },
     {
       "id": 8,
-      "img": "https://lp2.hm.com/hmgoepprod?set=source[/a2/24/a224b2ee5e069e54e5f9a4adbb0c741011293155.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "셔링 메쉬 드레스",
-      "price": 14900,
+      "img": "https://lp2.hm.com/hmgoepprod?set=source[/75/94/7594b6f3d9433bc023b2c87f6c4d4f0f8f6c67a7.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+      "title": "HERITAGE 캐시미어 터틀넥",
+      "price": 149000,
       "choice": true,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "프리미엄 캐시미어 소재",
+          "클래식한 터틀넥 디자인",
+          "보온성 극대화",
+          "부드러운 터치감"
+        ],
+        "material": "캐시미어 100%",
+        "care": ["드라이클리닝 권장", "울샴푸 사용가능", "평평하게 건조"]
+      }
     },
     {
       "id": 9,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/9a/ae/9aae5fa4857581269e4b30ecd0f41b34546433e9.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[2]&call=url[file:/product/main]",
-      "title": "스트레이트 레귤러 진",
-      "price": 19900,
+      "title": "PREMIUM 셀비지 데님 진",
+      "price": 219000,
       "choice": false,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "일본산 프리미엄 데님",
+          "셀비지 디테일",
+          "완벽한 피팅감",
+          "견고한 스티치"
+        ],
+        "material": "코튼 100%",
+        "care": ["찬물 손세탁", "중성세제 사용", "자연 건조"]
+      }
     },
     {
       "id": 10,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/84/ce/84ce870d8ae022ed2e6eca1d5ec4df7f94236f7c.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "스트랩리스 데님 탑",
-      "price": 19900,
+      "title": "MODERN 프리미엄 데님 탑",
+      "price": 189000,
       "choice": true,
       "new": false,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "프리미엄 데님 소재",
+          "유니크한 디자인",
+          "완벽한 피팅감",
+          "고급 스티치 디테일"
+        ],
+        "material": "코튼 98%, 엘라스틴 2%",
+        "care": ["찬물 손세탁", "중성세제 사용", "건조기 사용금지"]
+      }
     },
     {
       "id": 11,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/c2/91/c29138b7a1fbf71632aa649f5aaea8bdb6ef8bee.jpg],origin[dam],category[men_jeans_slim],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
-      "title": "스키니 하이웨이스트 진",
-      "price": 29900,
+      "title": "LUXE 하이웨이스트 슬림진",
+      "price": 229000,
       "choice": true,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "프리미엄 스트레치 데님",
+          "완벽한 하이웨이스트 핏",
+          "슬리밍 이펙트",
+          "고급 디테일 마감"
+        ],
+        "material": "코튼 95%, 엘라스틴 5%",
+        "care": ["30도 이하 물세탁", "중성세제 사용", "뒤집어서 세탁"]
+      }
     },
     {
       "id": 12,
       "img": "https://image.hm.com/assets/hm/7b/e8/7be8d5fe8b15cd0dcab12d61ee92537562b66dbe.jpg?imwidth=564",
-      "title": "와이드 하이웨이스트 진",
-      "price": 14900,
+      "title": "PREMIUM 와이드 데님 팬츠",
+      "price": 189000,
       "choice": true,
       "new": true,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "고급 데님 소재",
+          "트렌디한 와이드 핏",
+          "완벽한 실루엣",
+          "견고한 마감처리"
+        ],
+        "material": "코튼 100%",
+        "care": ["30도 이하 물세탁", "중성세제 사용", "자연 건조"]
+      }
     },
     {
       "id": 13,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/20/61/20612b8b2f20416575f10ef251a8dd6f62f0b2c1.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "레귤러 웨이스트 와이드 진",
-      "price": 29900,
+      "title": "HERITAGE 빈티지 워시드 진",
+      "price": 259000,
       "choice": false,
       "new": false,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "특별한 워싱 처리",
+          "빈티지한 디테일",
+          "편안한 레귤러 핏",
+          "프리미엄 마감"
+        ],
+        "material": "코튼 100%",
+        "care": ["찬물 세탁", "중성세제 사용", "뒤집어서 세탁"]
+      }
     },
     {
       "id": 14,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/f9/c7/f9c75f4e5bb9181a9b77e7641078f08e7c038333.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "벨티드 퀼팅 재킷",
-      "price": 299000,
+      "title": "SIGNATURE 퀼팅 레더 재킷",
+      "price": 599000,
       "choice": false,
       "new": false,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "최고급 램스킨 레더",
+          "고급스러운 퀼팅 디테일",
+          "실크 안감",
+          "브랜드 시그니처 버클"
+        ],
+        "material": "천연 양가죽 100%, 안감: 실크 100%",
+        "care": ["전문 클리닝만 가능", "레더 전용 케어 제품 사용", "습기 주의"]
+      }
     },
     {
       "id": 15,
       "img": "https://lp2.hm.com/hmgoepprod?set=source[/15/f9/15f9621209d5bc5acc29bd71cbf24b0bcd825e81.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-      "title": "싱글 브레스티드 재킷",
-      "price": 69900,
+      "title": "CLASSIC 울 블레이저",
+      "price": 459000,
       "choice": false,
       "new": false,
-      "size": ["S", "M", "L"]
+      "size": ["S", "M", "L"],
+      "description": {
+        "mainFeatures": [
+          "이탈리아 울 소재",
+          "클래식한 테일러링",
+          "실크 안감",
+          "수작업 디테일"
+        ],
+        "material": "울 100%, 안감: 실크 100%",
+        "care": ["드라이클리닝 전용", "습기에 주의", "옷걸이 보관"]
+      }
     }
   ]
 }

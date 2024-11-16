@@ -2,18 +2,49 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  padding: 20px 0;
+  padding: 15px;
   cursor: pointer;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
 `;
 const Img = styled.img`
-  width: 300px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
 `;
 const Info = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  padding: 10px;
+
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .price {
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    background: #f8f9fa;
+    color: #666;
+  }
 `;
 
 const ProductCard = ({ item }) => {
@@ -29,10 +60,9 @@ const ProductCard = ({ item }) => {
     <Wrapper onClick={showDetail}>
       <Img src={item.img} />
       <Info>
-        <div>Conscious Choice</div>
-        <div>{item && item?.title}</div>
-        <div>{formattedPrice}</div>
-        <div>{item?.new === true ? "신제품" : "이벤트"}</div>
+        <div className="title">{item && item?.title}</div>
+        <div className="price">{formattedPrice}</div>
+        <div className="tag">{item?.new === true ? "신제품" : "이벤트"}</div>
         <div>{item?.size}</div>
       </Info>
     </Wrapper>
